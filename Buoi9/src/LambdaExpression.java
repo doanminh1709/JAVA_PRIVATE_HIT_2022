@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 /*
-  //Functional interface (Single Abstract Method) : Chỉ được tạo duy nhất đúng 1 method là public abstract
+//Functional interface (Single Abstract Method) : Chỉ được tạo duy nhất đúng 1 method là public abstract
   @FunctionalInterface : annotation nhận biết 1 interface là functional interface
   - Default method và static method
     + Giúp ta mở rộng interface mà không phải lo ngại phá vỡ các class được implement từ nó

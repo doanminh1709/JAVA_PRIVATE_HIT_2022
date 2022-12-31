@@ -24,7 +24,6 @@ public class StreamAPI {
     System.out.printf("Số phần tử chẵn trong list : %d", count);
   }
 
-
   private static List<Student> students = new ArrayList<>();
 
   //Sử dụng khối Static : Để khởi tạo thành viên dữ liệu static
