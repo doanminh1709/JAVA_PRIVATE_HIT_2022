@@ -9,7 +9,7 @@ public class JDBCConnector {
     final String user = "sa";
     final String password = "1";
 
-    final String url = "jdbc:sqlserver://localhost:1433;databaseName=qlsv_demo;user=" + user + ";password=" + password;
+    final String url = "jdbc:sqlserver://localhost:1433;databaseName=qlsv;user=" + user + ";password=" + password;
 
     try {
       Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
@@ -18,15 +18,5 @@ public class JDBCConnector {
       e.printStackTrace();
     }
     return null;
-  }
-
-  //Cách check kết nối xem thành công hay chưa
-  public static void main(String[] args) {
-    Connection connection = getJDBCConnection();
-    if (connection != null){
-      System.out.println("Ket noi thanh cong");
-    }else{
-      System.out.println("Ket noi that bai");
-    }
   }
 }
